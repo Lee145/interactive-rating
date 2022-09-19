@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+}
+.preview{
+   margin-left: auto;
+   margin-right: auto;
+    display:  flex;
+ justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    padding-top: 100px;
+}
+.background{
+    width: 350px;
+    height: 380px;
+    border-radius: 5px;
+    background-color:hsl(216, 12%, 8%);
+   
+}
+.img-class{
+        background-color:hsl(213, 19%, 18%) ;
+        border-radius: 50px;
+        padding: 1em;
+}
+ .circle{
+ margin-left: 2rem;
+ margin-top: 3rem;
+  position: relative; 
+ 
+
+} 
+.header{
+    color:white ;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 2rem;
+}
+.background p {
+    width: 300px;
+    color:hsl(216, 12%, 54%);
+    margin-left: 2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+}
+.number{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.error{
+    text-align: center;
+    margin-top: 2px;
+    display: none;
+}
+.num-1:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+} 
+.num-2:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+} 
+.num-3:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+} 
+.num-4:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+} 
+.num-5:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+} 
+
+.num-1,
+.num-2,
+.num-3,
+.num-4,
+.num-5{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color:hsl(213, 19%, 18%) ;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: hsl(216, 12%, 54%);
+}
+.num-1:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+.num-2:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+.num-3:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+.num-4:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+.num-5:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+#submit{
+    margin-left: 2rem;
+    padding: 12px 120px;
+    outline: none;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+    color: white;
+  cursor: pointer;
+    letter-spacing:1px;
+    transition: 1s all linear;
+}
+#submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.thanks-bg{
+    text-align: center;
+    width: 420px;
+    height: 420px;
+    border-radius: 5px;
+    background-color:hsl(216, 12%, 8%);
+       display: none;    
+}
+#again{
+    transition: 1s all linear;
+    padding: 12px 120px;
+    outline: none;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+    color: white;
+  cursor: pointer;
+    letter-spacing:1px;
+    margin-top: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+}
+#again:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.img{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.selected{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.rating{
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+    background-color:hsl(213, 19%, 18%)  ;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.paragraph{
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+    font-size: 14px;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.praise{
+    margin-top: 1rem;
+    text-align: center;
+     justify-content: center; 
+     color: hsl(240, 2%, 79%);
+     font-weight: 400;
+ }
+ 
+  .praise a{
+     text-decoration: underline;
+     color:blue;
+     font-weight: 400;
+ } 
